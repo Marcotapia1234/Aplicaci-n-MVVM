@@ -14,6 +14,9 @@
 		A98374082BD15A0B00927060 /* RegistroViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98374072BD15A0B00927060 /* RegistroViewTests.swift */; };
 		A98374122BD15A0C00927060 /* RegistroViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98374112BD15A0C00927060 /* RegistroViewUITests.swift */; };
 		A98374142BD15A0C00927060 /* RegistroViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98374132BD15A0C00927060 /* RegistroViewUITestsLaunchTests.swift */; };
+		A98374212BD15A6400927060 /* ViewModel_RegistroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98374202BD15A6400927060 /* ViewModel_RegistroView.swift */; };
+		A98374232BD15B5C00927060 /* RegistroVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98374222BD15B5C00927060 /* RegistroVista.swift */; };
+		A98374252BD15C0500927060 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98374242BD15C0500927060 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		A983740D2BD15A0C00927060 /* RegistroViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegistroViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98374112BD15A0C00927060 /* RegistroViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewUITests.swift; sourceTree = "<group>"; };
 		A98374132BD15A0C00927060 /* RegistroViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A98374202BD15A6400927060 /* ViewModel_RegistroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_RegistroView.swift; sourceTree = "<group>"; };
+		A98374222BD15B5C00927060 /* RegistroVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroVista.swift; sourceTree = "<group>"; };
+		A98374242BD15C0500927060 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,8 @@
 		A98373EA2BD15A0700927060 = {
 			isa = PBXGroup;
 			children = (
+				A98374242BD15C0500927060 /* Model.swift */,
+				A98374222BD15B5C00927060 /* RegistroVista.swift */,
 				A98373F52BD15A0700927060 /* RegistroView */,
 				A98374062BD15A0B00927060 /* RegistroViewTests */,
 				A98374102BD15A0C00927060 /* RegistroViewUITests */,
@@ -98,6 +106,7 @@
 				A98373F82BD15A0700927060 /* ContentView.swift */,
 				A98373FA2BD15A0B00927060 /* Assets.xcassets */,
 				A98373FC2BD15A0B00927060 /* Preview Content */,
+				A98374202BD15A6400927060 /* ViewModel_RegistroView.swift */,
 			);
 			path = RegistroView;
 			sourceTree = "<group>";
@@ -257,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98374252BD15C0500927060 /* Model.swift in Sources */,
+				A98374232BD15B5C00927060 /* RegistroVista.swift in Sources */,
+				A98374212BD15A6400927060 /* ViewModel_RegistroView.swift in Sources */,
 				A98373F92BD15A0700927060 /* ContentView.swift in Sources */,
 				A98373F72BD15A0700927060 /* RegistroViewApp.swift in Sources */,
 			);
